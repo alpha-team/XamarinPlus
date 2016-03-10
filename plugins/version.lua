@@ -1,27 +1,24 @@
 --------------------------------------------------
---      ____  ____ _____                        --
---     |    \|  _ )_   _|___ ____   __  __      --
---     | |_  )  _ \ | |/ ·__|  _ \_|  \/  |     --
---     |____/|____/ |_|\____/\_____|_/\/\_|     --
 --                                              --
---------------------------------------------------
---                                              --
---       Developers: @Josepdal & @MaSkAoS       --
---     Support: @Skneos,  @iicc1 & @serx666     --
+--            Developer: @AmirDark              --
+--             Support: @DarkTeam               --
 --                                              --
 --------------------------------------------------
 
 do
 
 function run(msg, matches)
-  return 'DBTeam Bot V1 Supergroups\nAn advanced Administration bot based on yagop/telegram-bot \n\nhttp://github.com/Josepdal/DBTeam\n\nDevelopers :\n@MaSkAoS\n@Josepdal\n\nSupport :\n@skneos\n@iicc1\n@Serx666' 
-  --[[ Checkout https://github.com/Josepdal/DBTeam
-  --GNU GPL v2 license.]]
+  return '⚡️ Xamarin Plus Bot v1.0\n    \n  📢 Channel : @DarkTeam\n  👤 Admin : @AmirDark\n  \n  🙏 Special Thanks to :\n  \n        @PokerFace_Dev\n        @ShahabDark\n        @MR_Flat\n        @Sinaw1\n  \n Checkout yeo.ir/XamarinPlus\n' 
 end
 
 return {
   patterns = {
-    "^#version$"
+    "^[!#/]xamarinplus$",
+    "^xamarinplus$",
+    "^[!#/]xamarin$",
+    "^xamarin$",
+    "^[!#/]version$",
+    "^version$"
   }, 
   run = run 
 }
