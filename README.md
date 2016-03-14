@@ -190,6 +190,8 @@ sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-d
 cd $HOME
 git clone https://github.com/amirhmz/XamarinPlus.git
 cd XamarinPlus
+git clone --recursive https://github.com/Josepdal/tg.git
+chmod +x ./launch.sh
 ./launch.sh install
 ./launch.sh # Will ask you for a phone number & confirmation code.
 ```
