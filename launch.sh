@@ -120,5 +120,5 @@ else
    echo -e "                                              \e[0m"
    echo -e "\e[36m"
 
-  ./tg/bin/telegram-cli -k ./tg/tg-server.pub -s ./xamarin.lua -l 1 -E $@
+  ./tg/bin/telegram-cli -k ./tg/tg-server.pub -s ./bot/xamarin.lua -l 1 -E $@
 fi
